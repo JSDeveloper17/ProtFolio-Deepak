@@ -1,5 +1,6 @@
-//import Propic from "../../assets/cropped_circle_image.png"
-import Profile from "../../assets/hero-img.png"
+//import ProImage from "../../assets/Profile-Image.png"
+import ProImage2 from "../../assets/img2.png"
+//import Profile from "../../assets/hero-img.png"
 import Linkdin from "../../assets/linkedin-dark.svg"
 import Twitter from "../../assets/twitter-dark.svg"
 import Github from "../../assets/github-dark.svg"
@@ -10,7 +11,7 @@ export const Hero = () => {
   return (
     <section id="hero" className='container'>
         <div className="colorModeContainer">
-            <img src={Profile} alt="Deepak Gupta" />
+            <img src={ProImage2} alt="Deepak Gupta" />
         </div>
         <div className="info">
             <h1>Deepak 

@@ -8,6 +8,11 @@
   height: 100dvh;
   min-height: 500px;
 
+  height: auto;               /* let content decide height */
+  min-height: 100vh;          /* still cover full screen */
+  padding-top: 60px;          /* extra breathing space */
+  box-sizing: border-box;
+
   .hero {
     max-width: 200px;
     margin: 0 auto;      /* ✅ makes image stay centered */
@@ -61,6 +66,15 @@
 .colorModeContainer {
   position: relative;
 }
+.colorModeContainer img {
+  width: 300px;        /* adjust as needed */
+  height: 300px;       /* keeps consistent size */
+  object-fit: cover;   /* crop instead of stretch */
+   border-radius: 50%;  /*makes it circular */
+  margin: 0 auto;      /* center align */
+  display: block;
+}
+
 
 .colorMode {
   position: absolute;
