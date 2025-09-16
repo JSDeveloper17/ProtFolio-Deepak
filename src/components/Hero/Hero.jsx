@@ -1,4 +1,4 @@
-import Picture from "../../assets/picture.png"
+import Picture from "../../assets/picture.PNG"
 import Linkdin from "../../assets/linkedin-dark.svg"
 import Twitter from "../../assets/twitter-dark.svg"
 import Github from "../../assets/github-dark.svg"
