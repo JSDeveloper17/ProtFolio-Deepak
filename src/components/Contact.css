@@ -1,0 +1,172 @@
+/* Contact Section */
+section {
+  padding: 2rem 0;
+}
+.con{
+    background-color: #000;
+    font-family:"Roboto Mono";
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+/* Main container (two-column layout) */
+.contact__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+/* Left Side (Talk to Me) */
+.contact__info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.contact__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact__card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.contact__card:hover {
+  transform: translateY(-5px);
+}
+
+.contact__card i {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+.contact__card h3 {
+  font-size: 1.1rem;
+  margin: 0.3rem 0;
+  color: #222;
+}
+
+.contact__card span {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+.contact__card a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.contact__card a:hover {
+  color: #007bff;
+}
+
+/* Right Side (Form) */
+.contact__form h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+
+.contact__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__form label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  background: #f9f9f9;
+  outline: none;
+  transition: border 0.2s ease;
+  color: #222;
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+  border: 1px solid #007bff;
+  background: #fff;
+}
+
+.contact__form textarea {
+  resize: none;
+}
+
+/* Button */
+/* Button */
+.contact__form button {
+  display: flex;               /* make it flexbox */
+  align-items: center;         /* vertically center */
+  justify-content: center;     /* center content */
+  gap: 0.5rem;                 /* space between text & icon */
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 1.2rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  width: 100%;                 /* optional → makes it full width */
+  max-width: 220px;
+  border: 2px solid #fff ;            /* keep nice width */
+}
+
+.contact__form button:hover {
+  background: #333;
+}
+
+.contact__form button i {
+  font-size: 1.1rem;            /* adjust icon size */
+}
+
+
+
+@media (max-width: 768px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;         /* add horizontal padding */
+  }
+
+  .contact__form,
+  .contact__info {
+    max-width: 95%;          /* don’t let it touch edges */
+    margin: 0 auto;          /* center inside */
+  }
+}
