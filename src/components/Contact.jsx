@@ -14,14 +14,14 @@ export const Contact = () => {
             <div className="contact__card">
               <i className="bi bi-envelope-arrow-up"></i>
               <h3>E-mail</h3>
-              <span>abcd2000@gmail.com</span>
-              <a href="mailto:abcd2000@gmail.com">Write Me →</a>
+              <span>dgjee2000@gmail.com</span>
+              <a href="mailto:dgjee2000@gmail.com">Write Me →</a>
             </div>
 
             <div className="contact__card">
               <i className="bi bi-whatsapp"></i>
               <h3>Whatsapp</h3>
-              <span>0008389300</span>
+              <span>7690899430</span>
               <a
                 href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
               >
