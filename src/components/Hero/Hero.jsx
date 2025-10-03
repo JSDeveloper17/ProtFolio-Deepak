@@ -2,7 +2,7 @@ import Picture from "../../assets/picture.PNG"
 import Linkdin from "../../assets/linkedin-dark.svg"
 import Twitter from "../../assets/twitter-dark.svg"
 import Github from "../../assets/github-dark.svg"
-import Resume from "../../assets/Resume.pdf"
+import Resume from "../../assets/Deepak_resume.pdf"
 import "./hero.style.css"
 
 export const Hero = () => {
